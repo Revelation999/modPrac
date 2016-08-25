@@ -70,7 +70,7 @@ public class Fizzbuzz
 			{
 				System.out.println("Input a year");
 				int year = userInput.nextInt();
-				if (year % 4 == 0 && (year/100) % 4 == 0)
+				if (year % 4 == 0 && ((year/100) % 4 == 0 || year % 100 != 0))
 					{
 						System.out.println("Leap");
 					}
